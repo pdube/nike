@@ -9,10 +9,12 @@ package main
 
 import "github.com/cloudops/nike"
 
+
 func main() {
     fns := []func() error {
         func() error {
             //do something here
+            time.Sleep(time.Millisecond * 500)
             return fmt.Errorf("uninmplemented yet #1")
         },
         func() error {
@@ -28,5 +30,4 @@ func main() {
         }
     }
 }
-
 ```
