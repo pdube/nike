@@ -7,7 +7,7 @@
 ```golang
 package main
 
-import "github.com/cloudops/nike"
+import "github.com/pdube/nike"
 
 
 func main() {
