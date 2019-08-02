@@ -1,6 +1,6 @@
 # nike
 
-`nike` is a simple library to run functions in parallel and return the accumulated errors, if any. It will create as many workers as there are CPUs at runtime.
+`nike` is a simple library to run functions in parallel and return the accumulated errors, if any. It will create as many workers as there are CPUs at runtime. It is named after the ancient greek goddess of victory [Nike](https://en.wikipedia.org/wiki/Nike_(mythology))
 
 ## Usage example
 
